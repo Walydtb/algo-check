@@ -1,0 +1,24 @@
+Début 
+Début
+  longueur <- 0
+  mots <- 1 
+  voyelles <- 0
+
+  Répéter
+    Lire(c)
+    longueur <- longueur + 1
+    
+    Si c = 'a' ou c = 'e' ou c = 'i' ou c = 'o' ou c = 'u' ou c = 'y' Alors
+      voyelles <- voyelles + 1
+    Sinon si
+    
+    Si c = ' ' Alors
+      mots <- mots + 1
+    Fin Si
+    
+  Jusqu'à c = '.'
+
+  Ecrire("Longueur : ", longueur)
+  Ecrire("Mots : ", mots)
+  Ecrire("Voyelles : ", voyelles)
+Fin
